@@ -10,3 +10,12 @@
 
 
 ### in order for our API to be RESTful we have to have a specific pattern of endpoints and routes. the routes or URLS in order to access cerain resources. the routes like /elephants or /course or /apple, we can through the / to go to the elephants topic page.
+
+
+1. before we use Studio 3T for MongoDB, we need to let mongod running, and connect 3T to mongoDB, and then we can creat datacbase.
+2. keep mongod running and then open another shell to code : cd Desktop/  --> mkdir Wiki-API/(file name) --> cd Wiki-API/  --> npm init -y  -->  npm i body-parser mongoos ejs funding (to install the packages)
+3. touch app.js
+4. ls -a  ----- to check the app.js already in wiki-api directory
+5. code .  ----- to open VScode
+6. write code on our app.js and also liston the port 3000
+7. nodemon app.js   ------ to let server started on port 3000
