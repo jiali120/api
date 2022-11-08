@@ -19,3 +19,8 @@
 5. code .  ----- to open VScode
 6. write code on our app.js and also liston the port 3000
 7. nodemon app.js   ------ to let server started on port 3000
+
+
+
+* we have one server can speak with database, and we are exposing certain parts of our server throgh the APIs that we are building, so clints able to work with our server and with our database
+* we can use postman to post data, and this is what is going to enable us to send data and test our API without having to worry about building an HTML form or building up the frontend at all.
