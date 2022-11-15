@@ -1,4 +1,12 @@
 # api
+* building RESTful API,  REST means REpresentational State Transfer
+* user make a HTTP request to the server, HTTP means Hypertext Transfer Protocol Request.
+* FTP request, means File Transfer protocol.
+* HTTPs requst stands for each HTTP secure requst
+* Client --> API --> Server (Client neet to send HTTP Request to the Server)
+* REST is essentially just an Architectural Style, REST is an architectural style for designing APIs
+* Using HTTP Request Verbs to make API RESTful, also using specific pattern of routers / endpoint URLs
+
 ### what exactly are the HTTP verbs? REST HTTP request verbs
 1. Get    --- app.get(function(req, res){   });  same with Read
 2. Post   --- app.post(function(req, res){  });  same with Create
